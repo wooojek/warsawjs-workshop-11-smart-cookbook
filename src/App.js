@@ -1,7 +1,13 @@
 import React from 'react';
 
+
+import Search from './Search';
+import RecipeList from './RecipeList';
 import './style.sass';
 
 export default function App() {
-    return <h1>Hello World!</h1>;
+    return <div>
+        <Search/>
+        <RecipeList/>
+    </div>;
 }
